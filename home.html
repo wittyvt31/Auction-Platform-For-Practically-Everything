@@ -1,0 +1,505 @@
+<!DOCTYPE html>
+<html lang="en">
+  <title>GOAT PRICE</title>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css" />
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato" />
+  <link rel="icon" href="goat.png" />
+  <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+  />
+
+  <style>
+    body {
+      font-family: "Lato", sans-serif;
+    }
+
+    .mySlides {
+      display: none;
+    }
+  </style>
+
+  <body>
+    <!-- Navbar -->
+    <div class="w3-top">
+      <div class="w3-bar w3-black w3-card">
+        <a
+          class="w3-bar-item w3-button w3-padding-large w3-hide-medium w3-hide-large w3-right"
+          href="javascript:void(0)"
+          onclick="myFunction()"
+          title="Toggle Navigation Menu"
+          ><i class="fa fa-bars"></i
+        ></a>
+        <a href="home.html" class="w3-bar-item w3-button w3-padding-large"
+          >HOME</a
+        >
+        <a
+          href="PA.html"
+          class="w3-bar-item w3-button w3-padding-large w3-hide-small"
+          >PRODUCT AUCTION</a
+        >
+        <a
+          href="J&B.html"
+          class="w3-bar-item w3-button w3-padding-large w3-hide-small"
+          >JOBS & SERVICES</a
+        >
+        <a
+          href="L&R.html"
+          class="w3-bar-item w3-button w3-padding-large w3-hide-small"
+          >LOGIN & REGISTER</a
+        >
+        <div class="w3-dropdown-hover w3-hide-small">
+          <button class="w3-padding-large w3-button" title="More">
+            MORE <i class="fa fa-caret-down"></i>
+          </button>
+          <div class="w3-dropdown-content w3-bar-block w3-card-4">
+            <a href="#" class="w3-bar-item w3-button">FAQ</a>
+            <a href="#" class="w3-bar-item w3-button">CONTACT US</a>
+            <a href="#" class="w3-bar-item w3-button">ABOUT</a>
+          </div>
+        </div>
+
+        <a
+          href="javascript:void(0)"
+          class="w3-padding-large w3-hover-red w3-hide-small w3-right"
+          ><i class="fa fa-search"></i
+        ></a>
+        <a
+          href="index.html"
+          class="w3-padding-large w3-hover-red w3-hide-small w3-right"
+          ><i class="fa fa-user"></i
+        ></a>
+      </div>
+    </div>
+
+    <!-- Navbar on small screens (remove the onclick attribute if you want the navbar to always show on top of the content when clicking on the links) -->
+    <div
+      id="navDemo"
+      class="w3-bar-block w3-black w3-hide w3-hide-large w3-hide-medium w3-top"
+      style="margin-top: 46px"
+    >
+      <a
+        href="PA.html"
+        class="w3-bar-item w3-button w3-padding-large"
+        onclick="myFunction()"
+        >BAND</a
+      >
+      <a
+        href="#tour"
+        class="w3-bar-item w3-button w3-padding-large"
+        onclick="myFunction()"
+        >TOUR</a
+      >
+      <a
+        href="#contact"
+        class="w3-bar-item w3-button w3-padding-large"
+        onclick="myFunction()"
+        >CONTACT</a
+      >
+      <a
+        href="#"
+        class="w3-bar-item w3-button w3-padding-large"
+        onclick="myFunction()"
+        >MERCH</a
+      >
+    </div>
+
+    <!-- Page content -->
+    <div class="w3-content" style="max-width: 2000px; margin-top: 46px">
+      <!-- Trending Slideshow Images -->
+      <div class="mySlides w3-display-container w3-center">
+        <img src="TVjpg.jpg" style="width: 100%" />
+        <div
+          class="w3-display-bottommiddle w3-container w3-text-white w3-padding-32 w3-hide-small"
+        >
+          <button
+            class="w3-button w3-margin-bottom"
+            style="border-radius: 10px; background-color: white; color: black"
+          >
+            <img src="gavel.png" width="25px" height="25px" /> 7000 INR
+            <img src="gavel.png" width="25px" height="25px" />
+          </button>
+          <h3>LG LED TV</h3>
+          <p><b>Three years old</b></p>
+          <button class="w3-button w3-black w3-margin-bottom">
+            Click For More
+          </button>
+        </div>
+      </div>
+      <div class="mySlides w3-display-container w3-center">
+        <img
+          src="hyundai-eon-second-hand-car-500x500.jpg"
+          style="width: 100%"
+        />
+        <div
+          class="w3-display-bottommiddle w3-container w3-text-white w3-padding-32 w3-hide-small"
+        >
+          <button
+            class="w3-button w3-margin-bottom"
+            style="border-radius: 10px; background-color: white; color: black"
+          >
+            <img src="gavel.png" width="25px" height="25px" /> 2.5 Lakhs INR
+            <img src="gavel.png" width="25px" height="25px" />
+          </button>
+          <h3>Hyundai Eon Car</h3>
+          <p><b>Seven years old and still gives 22KMPL mileage</b></p>
+          <button class="w3-button w3-black w3-margin-bottom">
+            Click For More
+          </button>
+        </div>
+      </div>
+      <div class="mySlides w3-display-container w3-center">
+        <img src="emily-bernal-v9vII5gV8Lw-unsplash.jpg" style="width: 100%" />
+        <div
+          class="w3-display-bottommiddle w3-container w3-text-white w3-padding-32 w3-hide-small"
+        >
+          <button
+            class="w3-button w3-margin-bottom"
+            style="border-radius: 10px; background-color: white; color: black"
+          >
+            <img src="gavel.png" width="25px" height="25px" /> 15000 (per month)
+            <img src="gavel.png" width="25px" height="25px" />
+          </button>
+          <h3>Graphic Designer Post</h3>
+          <p><b>Work from home and maximum 12 hours work per week</b></p>
+          <button class="w3-button w3-black w3-margin-bottom">
+            Click For More
+          </button>
+        </div>
+      </div>
+
+      <!-- The Site Motto -->
+      <div
+        class="w3-container w3-content w3-center w3-padding-64"
+        style="max-width: 800px"
+        id="band"
+      >
+        <h2 class="w3-wide">Tired of Seeing Unsatisfying Price?</h2>
+        <p class="w3-opacity"><i>Let's Auction Everything</i></p>
+        <p class="w3-justify">
+          The aim of this platform is to find the customer as well the seller a
+          satisfying price and end the tyrannies of dark side of Capitalism. The
+          Auctions are supposed to be taken decently and any manipulation or
+          dumminess will result into strict action. The Strict action includes
+          vehement warning, temporary termination or permanant ban. Since only
+          identity verified users will be allowed to take part, their identities
+          will be strongly responsible for action they mean to take.
+        </p>
+      </div>
+
+      <!-- The Diwali Event Section -->
+      <div class="w3-black" id="tour">
+        <div
+          class="w3-container w3-content w3-padding-64"
+          style="max-width: 800px"
+        >
+          <h2 class="w3-wide w3-center">DIWALI AUCTION</h2>
+          <p class="w3-opacity w3-center">
+            <i>Let your Diwali be well-priced!</i>
+          </p>
+          <br />
+
+          <!-- <ul class="w3-ul w3-border w3-white w3-text-grey">
+          <li class="w3-padding">September <span class="w3-tag w3-red w3-margin-left">Sold out</span></li>
+          <li class="w3-padding">October <span class="w3-tag w3-red w3-margin-left">Sold out</span></li>
+          <li class="w3-padding">November <span class="w3-badge w3-right w3-margin-right">3</span></li>
+        </ul> -->
+
+          <div class="w3-row-padding w3-padding-32" style="margin: 0 -16px">
+            <div class="w3-third w3-margin-bottom">
+              <img
+                src="gujrate lehenga.jpeg"
+                alt="New York"
+                style="width: 100%"
+                class="w3-hover-opacity"
+              />
+              <div class="w3-container w3-white">
+                <p><b>Gujarati Lehenga</b></p>
+                <p>Product</p>
+                <p class="w3-opacity">Till Sun 28 Nov 2021</p>
+                <p>Average Price: 2000 INR</p>
+                <button
+                  class="w3-button w3-black w3-margin-bottom"
+                  onclick="document.getElementById('ticketModal').style.display='block'"
+                >
+                  2500 INR
+                </button>
+                <button class="w3-button w3-black w3-margin-bottom">
+                  Description
+                </button>
+              </div>
+            </div>
+            <div class="w3-third w3-margin-bottom">
+              <img
+                src="ramcharitamans.jpg"
+                alt="Paris"
+                style="width: 100%"
+                class="w3-hover-opacity"
+              />
+              <div class="w3-container w3-white">
+                <p><b>Ramcharitamanas for Lakshmipujan</b></p>
+                <p class="w3-opacity">Till Sat 27 Nov 2021</p>
+                <p>Product</p>
+                <p>Average Price: 700 INR</p>
+                <button
+                  class="w3-button w3-black w3-margin-bottom"
+                  onclick="document.getElementById('ticketModal').style.display='block'"
+                >
+                  1500 INR
+                </button>
+                <button class="w3-button w3-black w3-margin-bottom">
+                  Description
+                </button>
+              </div>
+            </div>
+            <div class="w3-third w3-margin-bottom">
+              <img
+                src="diwali complete decoration set.jpeg"
+                alt="San Francisco"
+                style="width: 100%"
+                class="w3-hover-opacity"
+              />
+              <div class="w3-container w3-white">
+                <p><b>Help for Complete home decoration</b></p>
+                <p>Service</p>
+                <p class="w3-opacity">At Mon 29 Nov 2021</p>
+                <p>Average Price: 750 INR</p>
+                <button
+                  class="w3-button w3-black w3-margin-bottom"
+                  onclick="document.getElementById('ticketModal').style.display='block'"
+                >
+                  600 INR
+                </button>
+                <button class="w3-button w3-black w3-margin-bottom">
+                  Description
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- The Christmas Event Section -->
+      <div class="w3-black" id="tour">
+        <div
+          class="w3-container w3-content w3-padding-64"
+          style="max-width: 800px"
+        >
+          <h2 class="w3-wide w3-center">CHRISTMAS SANTA</h2>
+          <p class="w3-opacity w3-center">
+            <i>Who will be your Secret Santa?</i>
+          </p>
+          <br />
+
+          <!-- <ul class="w3-ul w3-border w3-white w3-text-grey">
+          <li class="w3-padding">September <span class="w3-tag w3-red w3-margin-left">Sold out</span></li>
+          <li class="w3-padding">October <span class="w3-tag w3-red w3-margin-left">Sold out</span></li>
+          <li class="w3-padding">November <span class="w3-badge w3-right w3-margin-right">3</span></li>
+        </ul> -->
+
+          <div class="w3-row-padding w3-padding-32" style="margin: 0 -16px">
+            <div class="w3-third w3-margin-bottom">
+              <img
+                src="christmas tree.jpg"
+                alt="New York"
+                style="width: 100%"
+                class="w3-hover-opacity"
+              />
+              <div class="w3-container w3-white">
+                <p><b>Christmas Tree</b></p>
+                <p>Product</p>
+                <p class="w3-opacity">Till Fri 31 Dec 2021</p>
+                <p>Average Price: 1500 INR</p>
+                <button
+                  class="w3-button w3-black w3-margin-bottom"
+                  onclick="document.getElementById('ticketModal').style.display='block'"
+                >
+                  2061 INR
+                </button>
+                <button class="w3-button w3-black w3-margin-bottom">
+                  Description
+                </button>
+              </div>
+            </div>
+            <div class="w3-third w3-margin-bottom">
+              <img
+                src="remote control.jpg"
+                alt="Paris"
+                style="width: 100%"
+                class="w3-hover-opacity"
+              />
+              <div class="w3-container w3-white">
+                <p><b>Remote Control Car for kids</b></p>
+                <p class="w3-opacity">Till Mon 27 Dec 2021</p>
+                <p>Product</p>
+                <p>Average Price: 700 INR</p>
+                <button
+                  class="w3-button w3-black w3-margin-bottom"
+                  onclick="document.getElementById('ticketModal').style.display='block'"
+                >
+                  910 INR
+                </button>
+                <button class="w3-button w3-black w3-margin-bottom">
+                  Description
+                </button>
+              </div>
+            </div>
+            <div class="w3-third w3-margin-bottom">
+              <img
+                src="santa.jpg"
+                alt="San Francisco"
+                style="width: 100%"
+                class="w3-hover-opacity"
+              />
+              <div class="w3-container w3-white">
+                <p><b>Santa Portrayal For Societal Function</b></p>
+                <p>Service</p>
+                <p class="w3-opacity">At Sun 25 Dec 2021</p>
+                <p>Average Price: 1000 INR</p>
+                <button
+                  class="w3-button w3-black w3-margin-bottom"
+                  onclick="document.getElementById('ticketModal').style.display='block'"
+                >
+                  800 INR
+                </button>
+                <button class="w3-button w3-black w3-margin-bottom">
+                  Description
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Ticket Modal -->
+      <div id="ticketModal" class="w3-modal">
+        <div class="w3-modal-content w3-animate-top w3-card-4">
+          <header class="w3-container w3-teal w3-center w3-padding-32">
+            <span
+              onclick="document.getElementById('ticketModal').style.display='none'"
+              class="w3-button w3-teal w3-xlarge w3-display-topright"
+              >&times;</span
+            >
+            <h2 class="w3-wide">
+              <i class="fa fa-suitcase w3-margin-right"></i>Bid
+            </h2>
+          </header>
+          <div class="w3-container">
+            <p>
+              <label><i class="fa fa-gavel"></i> For Bidding</label>
+            </p>
+            <input
+              class="w3-input w3-border"
+              type="text"
+              placeholder="Should be 6% greater than the Best Price"
+            />
+            <p>
+              <label
+                ><i class="fa-solid fa-indian-rupee-sign"></i> For Any Other
+                Suitable Price</label
+              >
+            </p>
+            <input
+              class="w3-input w3-border"
+              type="text"
+              placeholder="Enter Average Price"
+            />
+            <button
+              class="w3-button w3-block w3-teal w3-padding-16 w3-section w3-right"
+            >
+              AUCTION <i class="fa fa-check"></i>
+            </button>
+            <button
+              class="w3-button w3-red w3-section"
+              onclick="document.getElementById('ticketModal').style.display='none'"
+            >
+              Close <i class="fa fa-remove"></i>
+            </button>
+
+            <p class="w3-right">
+              Need <a href="#" class="w3-text-blue">help?</a>
+            </p>
+          </div>
+        </div>
+      </div>
+
+      <!-- The Contact Section -->
+      <div
+        class="w3-container w3-content w3-padding-64"
+        style="max-width: 800px"
+        id="contact"
+      >
+        <h2 class="w3-wide w3-center">CONTACT US</h2>
+        <p class="w3-opacity w3-center">
+          <i>WRITE US, IF YOU HAVE AN ISSUE!</i>
+        </p>
+        <div class="w3-row w3-padding-32">
+          <div class="w3-col m6 w3-large w3-margin-bottom">
+            <i class="fa fa-map-marker" style="width: 30px"></i> PUNE, IND<br />
+            <i class="fa fa-phone" style="width: 30px"></i> Phone: +91
+            969420969<br />
+            <i class="fa fa-envelope" style="width: 30px"> </i> Email:
+            mail@mail.com<br />
+          </div>
+          <div class="w3-col m6">
+            <form action="/action_page.php" target="_blank">
+              <div class="w3-row-padding" style="margin: 0 -16px 8px -16px">
+                <div class="w3-half">
+                  <input
+                    class="w3-input w3-border"
+                    type="text"
+                    placeholder="Name"
+                    required
+                    name="Name"
+                  />
+                </div>
+                <div class="w3-half">
+                  <input
+                    class="w3-input w3-border"
+                    type="text"
+                    placeholder="Email"
+                    required
+                    name="Email"
+                  />
+                </div>
+              </div>
+              <input
+                class="w3-input w3-border"
+                type="text"
+                placeholder="Message"
+                required
+                name="Message"
+              />
+              <button
+                class="w3-button w3-black w3-section w3-right"
+                type="submit"
+              >
+                SEND
+              </button>
+            </form>
+          </div>
+        </div>
+      </div>
+
+      <!-- End Page Content -->
+    </div>
+
+    <!-- Image of location/map -->
+
+    <!-- Footer -->
+    <footer
+      class="w3-container w3-padding-64 w3-center w3-opacity w3-light-grey w3-xlarge"
+    >
+      <i class="fa fa-facebook-official w3-hover-opacity"></i>
+      <i class="fa fa-instagram w3-hover-opacity"></i>
+      <i class="fa fa-snapchat w3-hover-opacity"></i>
+      <i class="fa fa-pinterest-p w3-hover-opacity"></i>
+      <i class="fa fa-twitter w3-hover-opacity"></i>
+      <i class="fa fa-linkedin w3-hover-opacity"></i>
+    </footer>
+  </body>
+
+  <script src="Site.js"></script>
+</html>
